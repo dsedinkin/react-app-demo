@@ -4,6 +4,10 @@
 
 Приложение "demo-react-app" для платформы VK Mini Apps.
 
+<img src="./static/screenshots/1.PNG" width="250" />
+<img src="./static/screenshots/2.PNG" width="250" />
+<img src="./static/screenshots/3.PNG" width="250" />
+
 ## Стек
 
 - [React](https://reactjs.org/)
@@ -30,92 +34,3 @@ yarn deploy
 ```
 
 Чтобы посмотреть приложение без локальной инициализации, oткройте https://vk.com/app51504769.
-
-## Структура
-
-- `public/`
-    - `index.html`
-- `src/`
-    - `components/`
-        - `AppModalRoot/`
-            - `AppModalRoot.css`
-            - `AppModalRoot.tsx`
-        - `AppTabbar/`
-            - `AppTabbar.css`
-            - `AppTabbar.tsx`
-        - `UserInfo/`
-            - `UserInfo.css`
-            - `UserInfo.tsx`
-        - `VKUIProvider/`
-            - `VKUIProvider.css`
-            - `VKUIProvider.tsx`
-        - `index.ts`
-    - `engine/`
-        - `hooks/`
-            - `useRoute/`
-                - `index.ts`
-                - `useBackPage.ts`
-                - `useNextPage.ts`
-            - `useApi.ts`
-            - `useCallbackState.ts`
-            - `useCallbackValue.ts`
-        - `icons/`
-            - `IconPlaceholder.svg`
-            - `IconVKUI.svg`
-            - `IconVmoji.svg`
-            - `index.ts`
-        - `state/`
-            - `atoms/`
-                - `history.ts`
-                - `index.ts`
-            - `index.ts`
-        - `utils/`
-            - `classNames.ts`
-        - `index.ts`
-        - `types.ts`
-    - `parent/`
-        - `Home/`
-            - `Home/`
-                - `components/`
-                    - `HomeHeader/`
-                        - `HomeHeader.css`
-                        - `HomeHeader.tsx`
-                    - `HomePlaceholder/`
-                        - `HomePlaceholder.css`
-                        - `HomePlaceholder.tsx`
-                    - `index.ts`
-                - `Home.css`
-                - `Home.tsx`
-        - `Profile/`
-            - `Friends/`
-                - `components/`
-                    - `FriendsHeader/`
-                        - `FriendsHeader.css`
-                        - `FriendsHeader.tsx`
-                    - `FriendsList/`
-                        - `FriendsList.css`
-                        - `FriendsList.css`
-                    - `index.ts`
-                - `Friends.css`
-                - `Friends.css`
-            - `Profile/`
-                - `components/`
-                    - `ProfileFriendsList/`
-                        - `ProfileFriendsList.css`
-                        - `ProfileFriendsList.tsx`
-                    - `ProfileHeader/`
-                        - `ProfileHeader.css`
-                        - `ProfileHeader.tsx`
-                    - `index.ts`
-                - `Profile.css`
-                - `Profile.tsx`
-        - `index.ts`
-    - `App.tsx`
-    - `index.tsx`
-    - `style.css`
-    - `types.d.ts`
-- `.gitignore`
-- `README.md`
-- `package.json`
-- `tsconfig.json`
-- `vk-hosting-config.json`
