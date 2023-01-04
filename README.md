@@ -2,7 +2,9 @@
 
 ## Описание
 
-Приложение "demo-react-app" для платформы VK Mini Apps.
+Приложение "Демо приложение" для платформы VK Mini Apps.
+
+<img src="./static/logo/150x150.jpg" width="100" />
 
 <img src="./static/screenshots/1.PNG" width="250" />
 <img src="./static/screenshots/2.PNG" width="250" />
