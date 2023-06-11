@@ -1,0 +1,4 @@
+#profile.Panel>div,
+.Panel:before {
+  background-color: var(--vkui--color_background) !important;
+}

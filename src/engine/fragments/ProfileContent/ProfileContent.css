@@ -1,0 +1,14 @@
+.ProfileContent {
+  margin-top: 11px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: var(--vkui--color_background_content);
+}
+
+.ProfileContent .Spinner {
+  margin-bottom: 30px;
+}
+
+.ProfileFriendsList__button {
+  padding-bottom: 12px;
+}

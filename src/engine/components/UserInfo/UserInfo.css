@@ -1,0 +1,59 @@
+.UserInfo__content {
+  border-radius: 0px 0px 16px 16px;
+}
+
+.UserInfo__container {
+  border-radius: 0px 0px 16px 16px;
+  padding: 24px 12px 40px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--vkui--color_background_content);
+}
+
+.UserInfo__avatar {
+  display: block;
+}
+
+.UserInfo__title {
+  padding-top: 11px;
+  padding-bottom: 2px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: var(--text_primary);
+}
+
+.UserInfo__cells {
+  display: flex;
+}
+
+.UserInfo__cell {
+  display: flex;
+  padding: 4px;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.UserInfo__cell .Icon {
+  margin-right: 6px;
+}
+
+.UserInfo__cell--city {
+  color: var(--vkui--color_text_secondary);
+}
+
+.UserInfo__cell--city .Icon {
+  color: var(--vkui--color_icon_secondary);
+}
+
+.UserInfo__cell--href .Icon {
+  color: var(--vkui--color_icon_accent);
+}
+
+.UserInfo__after {
+  border-radius: 8px;
+  margin-top: 3px;
+  background-color: var(--vkui--color_background_content);
+}

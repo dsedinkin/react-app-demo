@@ -1,22 +1,15 @@
-# demo-react-app
+<img src="./static/cover.jpg" />
 
-## Описание
-
-Приложение "Демо приложение" для платформы VK Mini Apps.
-
-<img src="./static/logo/150x150.jpg" width="100" />
-
-<img src="./static/screenshots/1.PNG" width="250" />
-<img src="./static/screenshots/2.PNG" width="250" />
-<img src="./static/screenshots/3.PNG" width="250" />
+# FRONTEND
 
 ## Стек
 
 - [React](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Recoil](https://recoiljs.org/)
+- [elum-state](https://www.npmjs.com/package/elum-state)
 - [VK Bridge](https://dev.vk.com/mini-apps/bridge)
 - [VK Mini Apps Deploy](https://github.com/VKCOM/vk-miniapps-deploy)
+- [VK Mini Apps Router](https://github.com/VKCOM/vk-mini-app-router)
 - [VKUI](https://dev.vk.com/libraries/vkui)
 
 ## Запуск
